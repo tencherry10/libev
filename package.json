@@ -12,8 +12,5 @@
     ".libs/libev.so",
     ".libs/libev.a"
   ],
-  "src": [
-    "src/ev.h",
-    "src/ev++.h"
-  ]
+  "src": [ "ev.h", "ev++.h" ]
 }
