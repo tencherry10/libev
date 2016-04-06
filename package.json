@@ -1,5 +1,5 @@
 {
-  "name": "jansson",
+  "name": "libev",
   "version": "4.22.0",
   "repo": "tencherry10/libev",
   "description": "libev packaged for clib",
