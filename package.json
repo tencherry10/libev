@@ -1,0 +1,19 @@
+{
+  "name": "jansson",
+  "version": "4.22.0",
+  "repo": "tencherry10/libev",
+  "description": "libev packaged for clib",
+  "keywords": ["libev"],
+  "license": "BSD",
+  "prepare": "bash autogen.sh && ./configure && make",
+  "prepared_src": [
+    ".libs/libev.so.4.0.0",
+    ".libs/libev.so.4",
+    ".libs/libev.so",
+    ".libs/libev.a"
+  ],
+  "src": [
+    "src/ev.h",
+    "src/ev++.h"
+  ]
+}
